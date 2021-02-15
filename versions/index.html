@@ -302,6 +302,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#v05x" class="md-nav__link">
+    v0.5.x
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -373,6 +380,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#v05x" class="md-nav__link">
+    v0.5.x
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -427,6 +441,11 @@
 <li>
 <p>"spliced reads only" bam created and split by regions</p>
 </li>
+</ul>
+<h4 id="v05x">v0.5.x</h4>
+<ul>
+<li><code>run_clear</code> is now set to True (as default)</li>
+<li><code>circ_quant</code> replaces <code>clear_quant</code> in the CLEAR rule. In order words, we are reusing the STAR alignment file and the circExplorer2 output file for running CLEAR. No need to run HISAT2 and TopHat (fusion-search with Bowtie1). This is much quicker.</li>
 </ul>
                 
               
